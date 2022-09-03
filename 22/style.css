@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.m{
+    padding: 12px;
+    margin: 12px;
+    border: 2px dotted pink;
+    text-align: center; 
+    width: 650px;
+    text-indent: 12px;
+    position: relative;
+    left: 20%;
+    box-shadow: 12px 12px 12px 12px;
+    text-shadow: 11px 11px 11px ;
+    background-color: burlywood;
+    transition: .5s;
+    
+}
+.m:hover{
+    transform: scale(1.2);
+    position: sticky;
+}
+.m1{
+    position: sticky;
+    text-align: center;
+    margin: 35px;
+    border:2px groove gray ;
+    padding: 12px;
+    transition: 4s;
+}
+.m1:hover{
+transform: scale(1.2);
+}
+.m2{
+ 
+    position: sticky;
+    text-align: center;
+    margin: 35px;
+    border:2px groove gray ;
+    padding: 12px;
+    transition: 4s;   
+    transform: scale(1.3);
+}
