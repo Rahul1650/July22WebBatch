@@ -1,0 +1,94 @@
+#chrome {
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    height: 210px;
+    width: 210px;
+    left: 40vw;
+    top: 30vh;
+  }
+  #center{
+    background: #0d6cac;
+    height: 90px;
+    width: 90px;
+    margin-left: -45px; 
+    background: #0880b8; 
+    margin-top: -45px;
+  }
+  #circle {
+    background: orange;
+    height:  104px;
+    width: 104px;
+    margin-top: -48px;
+    margin-left: -47px;
+  }
+  #center,#circle {
+    border-radius: 50%; /* to make circle for each*/
+    position: absolute;
+    top: 50%;
+    left: 50%;}
+    #division1 {
+        background: #e93c35;
+        position: absolute;
+        top: 0;
+        left: 34px;
+        width: 200px;
+        height: 60px;
+      }
+      #division1:after {
+        transform: rotate(60deg);
+        content: " ";
+        background: #e93c35;
+        position: absolute;
+        top: 0;
+        left: -91px;
+        width: 200px;
+        height: 60px;
+      }
+      #division2 {
+        position: absolute;
+        top: 131px;
+        left: 56px;
+        width: 200px;
+        height: 65px;
+        transform: rotate(120deg);
+        background: #fdd901;
+      }
+      #division2:after {
+        position: absolute;
+        top: 0;
+        left: -91px;
+        width: 200px;
+        height: 60px;
+        transform: rotate(60deg);
+        content: " ";
+        background: #fdd901;
+      }
+      #division3 {
+        position: absolute;
+        top: 88px;
+        left: -74px;
+        width: 200px;
+        height: 65px;
+        transform: rotate(-120deg);
+        background: #5bc15b;
+      
+      }
+      /*to cover the little white part of second division */
+      #division3:after {
+        position: absolute;
+        top: 0;
+        left: -91px;
+        width: 200px;
+        height: 60px;
+        transform: rotate(60deg);
+        content: " ";
+        background: #5bc15b;
+      }
+      #circle {
+        background: white;
+        height:  104px;
+        width: 104px;
+        margin-top: -48px;
+        margin-left: -47px;
+      }

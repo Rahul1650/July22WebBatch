@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header{
+    background: yellowgreen;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    
+    
+}
+.a{
+    margin: 0 auto;
+}
+#a{
+    padding: 10px;
+    justify-content: space-between;
+}
