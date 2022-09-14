@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .container1 {
+  width: 100%;
+  min-height: 460px;
+  background-color: black;
+  margin-top: 10px;
+  opacity: .8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.container1 img {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  object-fit: contain;
+  object-position: center;
+  align-self: center;
+
+  max-width: 100%;
+  height: 350px;
+}
+
+
+.text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: center;
+  align-content: center;
+}
+.text p {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+
+.container1 .image {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  object-fit: contain;
+}
+
+        body{
+            z-index: 10;
+            background: -o-linear-gradient(rgb(0,0,0,.5));
+            background: url('https://assets.nflxext.com/ffe/siteui/vlv3/701eec50-4b87-4dc0-9d00-b0f54025dc36/028e62d2-2a59-4fc3-adaa-a0756a0512b9/IN-en-20220905-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+        }
+        nav{
+            display: flex;
+            
+            justify-content: space-between;
+            
+        }
+    .logo{
+        font-size: 28px;       
+        padding: 20px;
+        position: relative;
+        right: 0;
+        top: 0;
+        transition: background-color .5s;
+        z-index: 10;
+        margin-left: 20px;
+        background-color: transparent;
+    
+    }
+    .op{
+      background-color: black;
+        font-size: 28px;       
+        padding: 20px;
+        position: relative;
+        right: 0;
+        top: 0;
+        transition: background-color .5s;
+        z-index: 10;
+        margin-left: 20px;
+        background-color: transparent;
+    }   
+    #value{
+        font-size: 18px;
+        background-color: black;
+        padding: 10px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        position: absolute;
+        right: 120%;
+    }
+    
+.buttons {
+  background-color: #e50914;
+  padding: 7px 17px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 3px;
+}
+
+.main {
+  width: 100%;
+  margin-top: -100px;
+  background-color: black;
+  opacity: .8;
+  /* background-size: cover; */
+  align-items: center;
+  overflow-x: hidden;
+  justify-content: center;
+  display: flex;
+  background-position: center;
+  min-height: 710px;
+ }
+
+.area {
+  color: white;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.area h1 {
+  font-size: 60px;
+  word-spacing: 15px;
+  line-height: 75px;
+}
+
+.area h3 {
+  margin-top: -30px;
+  font-size: 27px;
+  font-weight: normal;
+}
+
+.search {
+  width: 150%;
+  background-color: none;
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.box {
+  width: 100%;
+  min-height: 65px;
+}
+
+.try {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #e50914;
+  min-height: 70px;
+  width: 100%;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+    .btn{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+        
+        text-decoration: none;
+    }
+.r{
+  display: flex;
+  justify-content: space-between;
+}
+.r section:first-child{
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+  
+}
+section:last-child img{
+width: 400px;
+justify-content: center;
+text-align: center;
+align-items: center;
+margin-right: 100%;
+}
+.r .v{
+  width: 400px;
+  margin-right: 40%;
+}
+  
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <iconify-icon icon="logos:netflix"></iconify-icon>
+        </div>
+        <div class="op">
+            <select name="data" id="value">
+                
+                <option value="" style="background-color: burlywood; color: yellow;">English</option>
+                <a href=""><option value="" style="color:brown ;">Hindi</option>    </a>
+              
+            </select>
+           <a href="" class="btn">Sign In</a>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="area">
+          <h1>Unlimited movies, TV <br>shows, and more.</h1>
+          <h3>Watch anywhere. Cancel anytime.
+            </h3>
+        
+            <div class="search">
+              <input type="text" class="box" placeholder="Email">
+              <span class="try">
+        Try 30 days free <i class="fas fa-chevron-right"></i>
+        
+        
+              </span>
+        </div>
+        <h4>Ready to watch? Enter your email to create or access your account
+          </h4>
+            </div>
+           
+            </div>
+            <div class="container1">
+              <div class="text">
+                <h1>Enjoy on your TV.
+                  </h1>
+                  <p>
+                      Watchx on Smart TVs, Playstation, Xbox, <br>
+                      Chromecast, Apple TV, Blu-ray players, and<br>
+                       more.
+                  </p>
+              </div>
+              <div class="image">
+        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+              </div>
+            </div>
+            
+                
+         
+</body>
+</html>
