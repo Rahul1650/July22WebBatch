@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+header{
+    background-image: url("rahul.jpg");
+    height: 99vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    background-position: center;
+    background-image: linear-gradient(rgba),(0,0,0,0.5);
+
+}
+@media(max-width:1024px){
+    header{ background-size: 270%;
+        background-repeat: no-repeat;
+
+    }
+}
+.x{
+    position: absolute;
+    top: 200px;
+    width: 450px;
+    left: 35px;
+    color:black;
+    box-shadow: 5px 5px 5px 5px;
+    text-shadow: 5px 5px 5px 5px;
+}
+.x:hover{
+    color: wheat;
+    background-color:black;
+
+}
+@media(max-width:1024px){
+    .x{ top: 250px;
+        width: 450px;
+        left: 35px;
+        color:black;
+        box-shadow: 5px 5px 5px 5px;
+        text-shadow: 5px 5px 5px 5px;
+        
+
+    }
+}
+.np{
+    color:black;
+    display: inline-block;
+    padding: 25px;    
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+  
+    border-radius: 50%;
+    
+}
+ul{
+    text-align: center;
+    list-style: none;
+    
+}
+ul li {
+    color:white;
+    display: inline-block;
+    padding: 25px;    
+    text-transform: uppercase;
+    text-decoration: none;
+text-transform: calc(azure);
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+ul li:hover{
+
+    color: yellow;
+    text-shadow: 2px 2px 2px 2px;
+}
+a:hover{
+
+    color: yellow;
+    text-shadow: 2px 2px 2px 2px; 
+    background-color: black;
+    border: 2px solid pink;
+}
+.ra{
+ position: absolute;   
+ top: 12px;
+ bottom: 12px;
+ 
+}
+.x1{
+    color: yellow;
+    text-shadow: 2px 2px 2px 2px; 
+    background-color: black;
+    border: 2px solid pink;
+}
